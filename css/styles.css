@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Header */ 
+
+.header {
+    box-shadow: 0px 5px 10px -2px rgba(34, -34, -34, -0.3);
+    width: 100vw;
+    background-image: url('http://grupohsd.com/celeste.png');
+    background-size: cover;
+    z-index: 100;
+}  
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: -5rem 2rem;
+}
+
+.logo{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.nav-principal{
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+}
+
+ul{
+    list-style-image: none;
+}
+
+li{
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.nav{
+    text-transform: uppercase;
+    padding-left: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Intro section */
+#intro {
+    min-height: 57vh;
+    background-image: url('http://www.grupohsd.com/core1.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.intro-title {
+    font-size: 2.5rem;
+}
+.intro-subtitle {
+    font-size: 1.25rem;
+
+}
+
+/* Clases Reutilizables */
+
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.space-top {
+    margin-top: 30px;
+}
+.space-top-sm { 
+    margin-top: 15px;
+}
+
+
+.content{
+    display: flex;
+    text-align: center;
+}
+
+
+/* Rows*/
+
+    .col-1 {
+        width: 100%;   
+    }
+
+    .col-2 {
+        width: 16.7%;   
+    }
+
+    .col-6 {
+        width: 50%; 
+    }
+    
+    .col-8 {
+        width: 66.7%;
+    }
+
+    .col-4 {
+        width: 33.3%;       
+    }
+        
+    .col-12 {
+        width: 8.33%;
+    }
+
+    .component-1{
+        display: inline-block;
+    }
+
+.card1{
+    min-height: 225px;
+    min-width: 150px;
+    background-image: url('http://www.grupohsd.com/pic2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#projects{
+    min-height: 27vh;
+    background-image: url('http://www.grupohsd.com/core4.png');
+    background-repeat: no-repeat;
+}
+.title2 {
+    font-size: 2rem;
+}
+
+.card2{
+ overflow-wrap: normal;
+ padding: 5px;
+}
+
+.card2 > span{
+    display: block;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.card3{
+    overflow-wrap: normal;
+    padding: 5px;
+}
+
+.card3 > span{
+    display: block;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.card4{
+    min-height: 200px;
+    min-width: 300px;
+    background-image: url('http://www.grupohsd.com/work.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* INICIO DE CARDS */
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   max-width: 450px;
+}
+
+.card-container .card-item{
+    width: 100%;
+    padding: 10px;
+}
+
+.card-container .card-in{
+    background: rgb(217, 225, 231);
+}
+
+.card-container .card-out{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.card-container .card-out{
+    padding: 15px;
+}
+
+.card-container .card-out .card-cat{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-container .card-out .card-info{
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px dashed #0071bc;
+}
+
+.card-container .card-out .card-info .title{
+    color: #0071bc;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.card-container .card-out .card-country{
+    text-align: center;
+}
+
+.blue-button{
+    display: flex;
+    padding: 8px 15px;
+    text-align: center;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    text-decoration:none;
+    line-height:20px;
+    justify-content: center;
+    
+  }
+
+   /* EDUCACION */
+
+  #education{
+    min-height: 27vh;
+    background-image: url('http://www.grupohsd.com/core5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title2 {
+    font-size: 2rem;
+}
+
+.education{
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 80px;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.content-ft{
+    margin: 0px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-ft{
+    color:#929292;
+    line-height: 2rem;
+    align-items: center;
+}
+
+/*Responsive */
+
+/* Ajustes para PANTALLAS ULTRAPEQUEÑAS */
+
+@media (max-width: 352px){
+    .nav-principal{
+        font-size: 0.8rem;
+    }
+
+    .card2 > span{
+        display: block;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .title2{
+        font-size: 1.5rem;
+    }
+
+    .educaction{
+       justify-content: space-around;
+    }
+}
+
+/* Ajustes apartir PANTALLAS MEDIANAS */
+
+@media (min-width: 462px){
+      .social{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header {
+        position: fixed;
+    }  
+
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card2-md {
+        padding: 30px;
+
+    }
+
+    .col-md-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .education{
+        margin-bottom: 80px;
+    }
+}
+
+/* Ajustes para PANTALLAS GRANDES O MAS "Normales" */
+
+@media (min-width: 796px) {
+    li{
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .col-lg-1 {
+        width: 100%;   
+    }
+
+    .col-lg-2 {
+        width: 16.7%;   
+    }
+
+    .col-lg-6 {
+        width: 50%; 
+    }
+    
+    .col-lg-8 {
+        width: 66.7%;
+    }
+
+    .col-lg-4 {
+        width: 33.3%;       
+    }
+        
+    .col-lg-12 {
+        width: 8.33%;
+    }
+
+    .main3{
+        display: flex;
+    }
+
+}
+
+.border{
+    border: solid;
+}
+
+.bred{
+    border: solid 2px red;
+}
+
+.bgreen{
+    border: solid 2px green;
+}
+
+.bblue{
+    border: solid 2px blue;
+}
